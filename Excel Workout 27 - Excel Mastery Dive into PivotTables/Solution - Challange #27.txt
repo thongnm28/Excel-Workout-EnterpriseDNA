@@ -1,0 +1,28 @@
+Questions:
+
+Why are PivotTables particularly useful in Excel?
+Ansswer:
+ii) They provide a dynamic way to summarize large datasets.
+If you want to compare data across two different categories in a PivotTable, where would you typically place the second category?
+Answer:
+ii) In the Column Field.
+Interactive Tasks:
+How you’d setup the pivot table:
+
+How many of each product were sold in each region?
+Answer:
+Row Field: Product
+Column Field: Region
+Value Field: Quantity Sold (or you can use any field that represents the quantity sold)
+What’s the total revenue for each product category across different months?
+Answer:
+Row Field: Product (or Product Category if you have a separate category column)
+Column Field: Date (grouped by months)
+Value Field: Sum of (Quantity Sold * Price)
+Which region had the highest average sales price for a specific product?
+Answer:
+
+Row Field: Region
+Column Field: (Leave this field blank)
+Value Field: Average of Price
+Filter: Product (Select the specific product you want to analyze)

@@ -1,0 +1,59 @@
+Description:
+
+The XLOOKUP function in Excel allows you to search a range or array, find the right value, and return the associated data from a different range or array. Dive deep into this formula, understanding its nuances and applications.
+
+Scenario:
+
+You’re working in a company’s finance department, and you have two tables in Excel. One contains employee IDs and names, while the other has employee IDs and their respective salaries. You’re tasked with matching the names to the salaries using the XLOOKUP function.
+
+Objectives:
+
+By the end of this workout, you should be able to:
+
+Understand the syntax and components of the XLOOKUP function.
+
+Efficiently retrieve data from one table based on another table’s values.
+
+Handle potential errors or mismatches using XLOOKUP.
+
+Interactive Task:
+
+Given the aforementioned tables and the following tasks, describe how you’d use the XLOOKUP formula:
+
+Retrieve the salary of an employee named “John Doe”.
+
+Your Formula: ________________________
+Get the name of an employee with an ID of “E12345”.
+
+Your Formula: ________________________
+For a list of names in column A, populate column B with their respective salaries.
+
+Your Formula for cell B2: ________________________
+Questions:
+
+What advantage does XLOOKUP have over the traditional VLOOKUP in Excel?
+
+i) XLOOKUP can only search vertically.
+
+ii) XLOOKUP allows for both horizontal and vertical lookups.
+
+iii) XLOOKUP requires sorted data.
+
+iv) XLOOKUP cannot handle errors.
+
+If the XLOOKUP function doesn’t find a match, what will it return by default?
+
+i) An error.
+
+ii) The closest value.
+
+iii) Zero.
+
+iv) The last value in the lookup array.
+
+Duration: 20 minutes
+
+Difficulty: Intermediate
+
+Period :
+This workout will be released on Wednesday, September 20, 2023, and will end on Thursday, October 05, 2023. But you can always come back to any of the workouts and solve them.

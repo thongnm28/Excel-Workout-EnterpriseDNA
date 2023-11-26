@@ -1,0 +1,59 @@
+Description:
+
+Text manipulation is an essential skill in Excel, especially when dealing with large datasets or imported data. In this workout, you’ll delve into the capabilities of the CONCATENATE, SUBSTITUTE, and TRIM functions, learning how to effectively tweak and transform text cells.
+
+Scenario:
+
+You’ve been provided with a dataset containing customer information. However, the dataset has some inconsistencies: names are spread across multiple columns, unwanted spaces are littered throughout, and certain abbreviations need to be expanded. How can you leverage Excel’s text functions to clean and organize this data?
+
+Objectives:
+
+By the end of this workout, you should be able to:
+
+Use CONCATENATE to join text from different cells or add additional text.
+
+Employ SUBSTITUTE to replace specific text within cells.
+
+Utilize TRIM to remove unnecessary spaces from text data.
+
+Interactive Task:
+
+Given your understanding of Excel’s text functions, answer the following:
+
+You have a customer’s first name in cell A1 (“John”) and last name in cell B1 (“Doe”). How would you combine these into a full name in cell C1 using CONCATENATE?
+
+Your Approach: ________________________
+In cell A2, you have the text “Mr. John Doe”. How would you use SUBSTITUTE to replace “Mr.” with “Mister”?
+
+Your Approach: ________________________
+Cell A3 contains the text " John ". How would you utilize the TRIM function to remove the unnecessary spaces?
+
+Your Answer: ________________________
+Questions:
+
+If you want to combine text from multiple cells and include a space between each, which of the following CONCATENATE formulas is correct?
+
+i) =CONCATENATE(A1, " ", B1)
+
+ii) =CONCATENATE(A1 + " " + B1)
+
+iii) =CONCATENATE(A1 & B1)
+
+iv) =CONCATENATE(" ", A1, B1)
+
+When might the TRIM function be especially useful in Excel?
+
+i) When you want to replace specific text within a cell.
+
+ii) When you’re dealing with data imported from other sources that may have inconsistent spacing.
+
+iii) When you want to combine text from multiple cells.
+
+iv) When you need to capitalize text.
+
+Duration: 20 minutes
+
+Difficulty: Intermediate
+
+Period:
+This workout is released on Tuesday, October 10, 2023, and will end on Friday, October 20, 2023. But you can always come back to any of the workouts and solve them.

@@ -1,0 +1,33 @@
+Questions:
+
+If you want to combine text from multiple cells and include a space between each, which of the following CONCATENATE formulas is correct?
+Answer:
+i) =CONCATENATE(A1, " ", B1)
+When might the TRIM function be especially useful in Excel?
+Answer:
+ii) When you’re dealing with data imported from other sources that may have inconsistent spacing.
+Interactive Task:
+
+You have a customer’s first name in cell A1 (“John”) and last name in cell B1 (“Doe”). How would you combine these into a full name in cell C1 using CONCATENATE?
+Approach:
+You can combine the first name and last name into a full name in cell C1 using the CONCATENATE function in Excel like this:
+
+=CONCATENATE(A1, " ", B1)
+
+This formula will take the first name from cell A1, add a space, and then add the last name from cell B1. The result in cell C1 would be “John Doe”.
+
+In cell A2, you have the text “Mr. John Doe”. How would you use SUBSTITUTE to replace “Mr.” with “Mister”?
+Approach:
+You can use the SUBSTITUTE function in Excel to replace “Mr.” with “Mister” in cell A2. Here’s how you would do it:
+
+=SUBSTITUTE(A2, "Mr.", "Mister")
+
+This formula will replace all occurrences of “Mr.” in the text in cell A2 with “Mister”. The result would be “Mister John Doe” if cell A2 originally contained “Mr. John Doe”.
+
+Cell A3 contains the text " John ". How would you utilize the TRIM function to remove the unnecessary spaces?
+Answer:
+You can use the TRIM function in Excel to remove unnecessary spaces from the text in cell A3. Here’s how you would do it:
+
+=TRIM(A3)
+
+This formula will remove all extra spaces from the start and end of the text in cell A3. If cell A3 originally contained " John ", the result would be “John”.

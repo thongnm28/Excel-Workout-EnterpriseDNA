@@ -1,0 +1,34 @@
+Interactive Task:
+
+Retrieve the salary of an employee named “John Doe”.
+Answer: =XLOOKUP(“John Doe”, B2:B100, C2:C100)
+In this formula:
+
+"John Doe" is the name you want to look up.
+B2:B100 represents the range of employee names in the second table.
+C2:C100 represents the range of salaries in the second table.
+Get the name of an employee with an ID of “E12345”.
+Answer:
+=XLOOKUP(“E12345”, A2:A100, C2:C100)
+In this formula:
+
+"E12345" is the ID you want to look up.
+A2:A100 represents the range of employee IDs in the first table.
+C2:C100 represents the range of employee names in the second table.
+For a list of names in column A, populate column B with their respective salaries.
+Answer: formula in cell B2
+=XLOOKUP(A2, D2:D100, F2:F100, “Not Found”)
+In this formula:
+
+A2 is the cell containing the name you want to look up.
+D2:D100 represents the range of employee names in the second table.
+F2:F100 represents the range of salaries in the second table.
+"Not Found" is the value to return if the name is not found in the first table.
+Questions:
+
+What advantage does XLOOKUP have over the traditional VLOOKUP in Excel?
+Answer:
+ii) XLOOKUP allows for both horizontal and vertical lookups.
+If the XLOOKUP function doesn’t find a match, what will it return by default?
+Answer:
+i) An error.
